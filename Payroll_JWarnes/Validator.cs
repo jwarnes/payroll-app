@@ -8,6 +8,7 @@ namespace Payroll_JWarnes
 {
     class Validator
     {
+        //this method is used to check if a textbox contains a decimal appropriate value
         public static bool isDecimal(TextBox textBox)
         {
             try

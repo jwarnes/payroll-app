@@ -17,10 +17,9 @@ namespace Payroll_JWarnes
             InitializeComponent();
         }
 
-        private string generateWageReport()
+        private void  generateWageReport()
         {
                 //this method performs all the necessary calculations, and then returns a formatted string containing the results
-                //this string can then be 
 
                 //perform all the calculations
                 decimal gross = Convert.ToDecimal(this.txtHoursWorked.Text) * Convert.ToDecimal(this.txtRate.Text);
@@ -31,7 +30,7 @@ namespace Payroll_JWarnes
 
                 decimal net = gross - stateTaxWithholding - fedTaxWithholding - ficaWithholding - miscDeductions;
 
-                //generate and return the report string
+                //generate the report and display the output through the lblReport control
                 string wageReport = "Gross Pay: " + gross.ToString("c");
                 wageReport += "\r\nNet Pay: " + net.ToString("c");
                 wageReport += "\r\n\r\nState Tax Withholding: " + stateTaxWithholding.ToString("c");
@@ -39,18 +38,14 @@ namespace Payroll_JWarnes
                 wageReport += "\r\nFICA Withholding: " + ficaWithholding.ToString("c");
                 wageReport += "\r\nMisc. Deductions: " + miscDeductions.ToString("c");
 
-                return wageReport;
+                this.lblReport.Text = wageReport;
+                this.lblReport.TextAlign = ContentAlignment.MiddleRight;
  
-        }
-
-        private void displayReport(string report)
-        {
-            this.lblReport.Text = report;
-            this.lblReport.TextAlign = ContentAlignment.MiddleRight;
         }
 
         private bool validate()
         {
+            //this method checks all the fields for valid entries, using the Validator class
             string errorMessage = "";
 
             if (!Validator.isDecimal(this.txtHoursWorked))
@@ -70,6 +65,7 @@ namespace Payroll_JWarnes
                 return true;
             else
             {
+                //if one or more of the fields fails validation, throw up a message box telling the user what to correct
                 MessageBox.Show(errorMessage, "You did something wrong!");
                 return false;
             }
@@ -80,7 +76,7 @@ namespace Payroll_JWarnes
             //run validation method, and if all the data is valid generate the report
             if (this.validate())
             {
-                this.displayReport(this.generateWageReport());
+                generateWageReport();
                 this.btnSave.Enabled = true;
             }
         }
@@ -118,7 +114,7 @@ namespace Payroll_JWarnes
 
             if(save.FileName != "")
             {
-                //convert the contents of lblReport to a byte array
+                //convert the string contents of lblReport to a byte array
                 byte[] report = new UTF8Encoding(true).GetBytes("Payroll Report\r\n----------------\r\n\r\n" + this.lblReport.Text);
 
                 //open a filestream and write the report to the file

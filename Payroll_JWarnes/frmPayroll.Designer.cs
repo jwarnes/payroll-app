@@ -76,7 +76,6 @@
             this.txtRate.Name = "txtRate";
             this.txtRate.Size = new System.Drawing.Size(73, 22);
             this.txtRate.TabIndex = 3;
-            this.txtRate.Text = "15.50";
             // 
             // txtHoursWorked
             // 
@@ -85,7 +84,6 @@
             this.txtHoursWorked.Name = "txtHoursWorked";
             this.txtHoursWorked.Size = new System.Drawing.Size(73, 22);
             this.txtHoursWorked.TabIndex = 1;
-            this.txtHoursWorked.Text = "40";
             // 
             // label2
             // 
@@ -95,7 +93,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Hourly Rate";
+            this.label2.Text = "Hourly &Rate";
             // 
             // label1
             // 
@@ -105,7 +103,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Hours Worked";
+            this.label1.Text = "&Hours Worked";
             // 
             // groupBox2
             // 
@@ -133,7 +131,6 @@
             this.txtMisc.Name = "txtMisc";
             this.txtMisc.Size = new System.Drawing.Size(73, 22);
             this.txtMisc.TabIndex = 7;
-            this.txtMisc.Text = "0";
             // 
             // txtFica
             // 
@@ -142,7 +139,6 @@
             this.txtFica.Name = "txtFica";
             this.txtFica.Size = new System.Drawing.Size(73, 22);
             this.txtFica.TabIndex = 5;
-            this.txtFica.Text = "6.2";
             // 
             // txtFedTax
             // 
@@ -151,7 +147,6 @@
             this.txtFedTax.Name = "txtFedTax";
             this.txtFedTax.Size = new System.Drawing.Size(73, 22);
             this.txtFedTax.TabIndex = 3;
-            this.txtFedTax.Text = "25";
             // 
             // txtStateTax
             // 
@@ -160,7 +155,6 @@
             this.txtStateTax.Name = "txtStateTax";
             this.txtStateTax.Size = new System.Drawing.Size(73, 22);
             this.txtStateTax.TabIndex = 1;
-            this.txtStateTax.Text = "7";
             // 
             // label6
             // 
@@ -170,7 +164,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(115, 17);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Misc. Deductions";
+            this.label6.Text = "&Misc. Deductions";
             // 
             // label5
             // 
@@ -180,7 +174,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 17);
             this.label5.TabIndex = 4;
-            this.label5.Text = "FICA";
+            this.label5.Text = "F&ICA";
             // 
             // label4
             // 
@@ -190,7 +184,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(112, 17);
             this.label4.TabIndex = 2;
-            this.label4.Text = "Fed. Income Tax";
+            this.label4.Text = "&Fed. Income Tax";
             // 
             // label3
             // 
@@ -200,7 +194,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(117, 17);
             this.label3.TabIndex = 0;
-            this.label3.Text = "State Income Tax";
+            this.label3.Text = "&State Income Tax";
             // 
             // groupBox3
             // 
@@ -233,7 +227,7 @@
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(100, 28);
             this.btnCalculate.TabIndex = 2;
-            this.btnCalculate.Text = "Calculate";
+            this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
@@ -245,7 +239,7 @@
             this.btnReset.Size = new System.Drawing.Size(100, 28);
             this.btnReset.TabIndex = 4;
             this.btnReset.TabStop = false;
-            this.btnReset.Text = "Reset";
+            this.btnReset.Text = "&Reset";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
@@ -258,7 +252,7 @@
             this.btnExit.Size = new System.Drawing.Size(100, 28);
             this.btnExit.TabIndex = 5;
             this.btnExit.TabStop = false;
-            this.btnExit.Text = "Exit";
+            this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
@@ -275,7 +269,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(100, 28);
             this.btnSave.TabIndex = 3;
-            this.btnSave.Text = "Save to File";
+            this.btnSave.Text = "Sa&ve to File";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
@@ -297,7 +291,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "frmPayroll";
-            this.Text = "Payroll Calculation Form";
+            this.Text = "Payroll Calculation";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
