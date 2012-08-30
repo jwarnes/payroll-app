@@ -7,3 +7,12 @@ c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JW
 c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\obj\x86\Debug\GenerateResource.write.1.tlog
 c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\obj\x86\Debug\Payroll_JWarnes.exe
 c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\obj\x86\Debug\Payroll_JWarnes.pdb
+C:\Users\En\Documents\GitHub\payroll-app\Payroll_JWarnes\obj\x86\Debug\Payroll_JWarnes.exe
+C:\Users\En\Documents\GitHub\payroll-app\Payroll_JWarnes\obj\x86\Debug\Payroll_JWarnes.pdb
+C:\Users\En\Documents\GitHub\payroll-app\Payroll_JWarnes\bin\Debug\Payroll_JWarnes.exe
+C:\Users\En\Documents\GitHub\payroll-app\Payroll_JWarnes\bin\Debug\Payroll_JWarnes.pdb
+C:\Users\En\Documents\GitHub\payroll-app\Payroll_JWarnes\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\En\Documents\GitHub\payroll-app\Payroll_JWarnes\obj\x86\Debug\Payroll_JWarnes.frmPayroll.resources
+C:\Users\En\Documents\GitHub\payroll-app\Payroll_JWarnes\obj\x86\Debug\Payroll_JWarnes.Properties.Resources.resources
+C:\Users\En\Documents\GitHub\payroll-app\Payroll_JWarnes\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\En\Documents\GitHub\payroll-app\Payroll_JWarnes\obj\x86\Debug\GenerateResource.write.1.tlog

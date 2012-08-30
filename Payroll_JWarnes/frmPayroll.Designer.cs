@@ -60,44 +60,50 @@
             this.groupBox1.Controls.Add(this.txtHoursWorked);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(16, 15);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(183, 70);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(244, 86);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Wages Earned";
             // 
             // txtRate
             // 
-            this.txtRate.Location = new System.Drawing.Point(110, 43);
+            this.txtRate.Location = new System.Drawing.Point(147, 53);
+            this.txtRate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRate.Name = "txtRate";
-            this.txtRate.Size = new System.Drawing.Size(56, 20);
+            this.txtRate.Size = new System.Drawing.Size(73, 22);
             this.txtRate.TabIndex = 3;
             this.txtRate.Text = "15.50";
             // 
             // txtHoursWorked
             // 
-            this.txtHoursWorked.Location = new System.Drawing.Point(110, 16);
+            this.txtHoursWorked.Location = new System.Drawing.Point(147, 20);
+            this.txtHoursWorked.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtHoursWorked.Name = "txtHoursWorked";
-            this.txtHoursWorked.Size = new System.Drawing.Size(56, 20);
+            this.txtHoursWorked.Size = new System.Drawing.Size(73, 22);
             this.txtHoursWorked.TabIndex = 1;
             this.txtHoursWorked.Text = "40";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(41, 46);
+            this.label2.Location = new System.Drawing.Point(55, 57);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.Size = new System.Drawing.Size(83, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Hourly Rate";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 19);
+            this.label1.Location = new System.Drawing.Point(37, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
+            this.label1.Size = new System.Drawing.Size(99, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hours Worked";
             // 
@@ -111,107 +117,121 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(12, 97);
+            this.groupBox2.Location = new System.Drawing.Point(16, 119);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(183, 127);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(244, 156);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Withholdings";
             // 
             // txtMisc
             // 
-            this.txtMisc.Location = new System.Drawing.Point(110, 94);
+            this.txtMisc.Location = new System.Drawing.Point(147, 116);
+            this.txtMisc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMisc.Name = "txtMisc";
-            this.txtMisc.Size = new System.Drawing.Size(56, 20);
+            this.txtMisc.Size = new System.Drawing.Size(73, 22);
             this.txtMisc.TabIndex = 7;
             this.txtMisc.Text = "0";
             // 
             // txtFica
             // 
-            this.txtFica.Location = new System.Drawing.Point(110, 69);
+            this.txtFica.Location = new System.Drawing.Point(147, 85);
+            this.txtFica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtFica.Name = "txtFica";
-            this.txtFica.Size = new System.Drawing.Size(56, 20);
+            this.txtFica.Size = new System.Drawing.Size(73, 22);
             this.txtFica.TabIndex = 5;
-            this.txtFica.Text = "6.14";
+            this.txtFica.Text = "6.2";
             // 
             // txtFedTax
             // 
-            this.txtFedTax.Location = new System.Drawing.Point(110, 44);
+            this.txtFedTax.Location = new System.Drawing.Point(147, 54);
+            this.txtFedTax.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtFedTax.Name = "txtFedTax";
-            this.txtFedTax.Size = new System.Drawing.Size(56, 20);
+            this.txtFedTax.Size = new System.Drawing.Size(73, 22);
             this.txtFedTax.TabIndex = 3;
-            this.txtFedTax.Text = "5.55";
+            this.txtFedTax.Text = "25";
             // 
             // txtStateTax
             // 
-            this.txtStateTax.Location = new System.Drawing.Point(110, 19);
+            this.txtStateTax.Location = new System.Drawing.Point(147, 23);
+            this.txtStateTax.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtStateTax.Name = "txtStateTax";
-            this.txtStateTax.Size = new System.Drawing.Size(56, 20);
+            this.txtStateTax.Size = new System.Drawing.Size(73, 22);
             this.txtStateTax.TabIndex = 1;
-            this.txtStateTax.Text = "4.6";
+            this.txtStateTax.Text = "7";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(15, 97);
+            this.label6.Location = new System.Drawing.Point(20, 119);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 13);
+            this.label6.Size = new System.Drawing.Size(115, 17);
             this.label6.TabIndex = 6;
             this.label6.Text = "Misc. Deductions";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(74, 72);
+            this.label5.Location = new System.Drawing.Point(99, 89);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 13);
+            this.label5.Size = new System.Drawing.Size(37, 17);
             this.label5.TabIndex = 4;
             this.label5.Text = "FICA";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 47);
+            this.label4.Location = new System.Drawing.Point(23, 58);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 13);
+            this.label4.Size = new System.Drawing.Size(112, 17);
             this.label4.TabIndex = 2;
             this.label4.Text = "Fed. Income Tax";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 22);
+            this.label3.Location = new System.Drawing.Point(17, 27);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 13);
+            this.label3.Size = new System.Drawing.Size(117, 17);
             this.label3.TabIndex = 0;
             this.label3.Text = "State Income Tax";
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.lblReport);
-            this.groupBox3.Location = new System.Drawing.Point(201, 12);
+            this.groupBox3.Location = new System.Drawing.Point(268, 15);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(176, 155);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Size = new System.Drawing.Size(251, 191);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Wage Breakdown";
             // 
             // lblReport
             // 
-            this.lblReport.Location = new System.Drawing.Point(6, 20);
-            this.lblReport.MaximumSize = new System.Drawing.Size(300, 300);
-            this.lblReport.MinimumSize = new System.Drawing.Size(10, 10);
+            this.lblReport.Location = new System.Drawing.Point(8, 25);
+            this.lblReport.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblReport.MaximumSize = new System.Drawing.Size(400, 369);
+            this.lblReport.MinimumSize = new System.Drawing.Size(13, 12);
             this.lblReport.Name = "lblReport";
-            this.lblReport.Size = new System.Drawing.Size(164, 125);
+            this.lblReport.Size = new System.Drawing.Size(235, 154);
             this.lblReport.TabIndex = 0;
             this.lblReport.Text = "Please complete the fields.";
             this.lblReport.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(210, 173);
+            this.btnCalculate.Location = new System.Drawing.Point(288, 213);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(75, 23);
+            this.btnCalculate.Size = new System.Drawing.Size(100, 28);
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -219,9 +239,10 @@
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(210, 202);
+            this.btnReset.Location = new System.Drawing.Point(288, 249);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.Size = new System.Drawing.Size(100, 28);
             this.btnReset.TabIndex = 4;
             this.btnReset.TabStop = false;
             this.btnReset.Text = "Reset";
@@ -231,9 +252,10 @@
             // btnExit
             // 
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(291, 202);
+            this.btnExit.Location = new System.Drawing.Point(396, 249);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.Size = new System.Drawing.Size(100, 28);
             this.btnExit.TabIndex = 5;
             this.btnExit.TabStop = false;
             this.btnExit.Text = "Exit";
@@ -247,9 +269,11 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(291, 173);
+            this.btnSave.Enabled = false;
+            this.btnSave.Location = new System.Drawing.Point(396, 213);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(100, 28);
             this.btnSave.TabIndex = 3;
             this.btnSave.Text = "Save to File";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -258,10 +282,10 @@
             // frmPayroll
             // 
             this.AcceptButton = this.btnCalculate;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(389, 237);
+            this.ClientSize = new System.Drawing.Size(532, 292);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReset);
@@ -270,6 +294,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "frmPayroll";
             this.Text = "Payroll Calculation Form";

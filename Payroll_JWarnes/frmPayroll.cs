@@ -33,11 +33,11 @@ namespace Payroll_JWarnes
 
                 //generate and return the report string
                 string wageReport = "Gross Pay: " + gross.ToString("c");
-                wageReport += "\n Net Pay: " + net.ToString("c");
-                wageReport += "\n\nState Tax Withholding: " + stateTaxWithholding.ToString("c");
-                wageReport += "\nFederal Tax Withholding: " + fedTaxWithholding.ToString("c");
-                wageReport += "\nFICA Withholding: " + ficaWithholding.ToString("c");
-                wageReport += "\nMisc. Deductions: " + miscDeductions.ToString("c");
+                wageReport += "\r\nNet Pay: " + net.ToString("c");
+                wageReport += "\r\n\r\nState Tax Withholding: " + stateTaxWithholding.ToString("c");
+                wageReport += "\r\nFederal Tax Withholding: " + fedTaxWithholding.ToString("c");
+                wageReport += "\r\nFICA Withholding: " + ficaWithholding.ToString("c");
+                wageReport += "\r\nMisc. Deductions: " + miscDeductions.ToString("c");
 
                 return wageReport;
  
@@ -47,11 +47,6 @@ namespace Payroll_JWarnes
         {
             this.lblReport.Text = report;
             this.lblReport.TextAlign = ContentAlignment.MiddleRight;
-        }
-
-        private void saveReport(string report)
-        {
-
         }
 
         private bool validate()
@@ -86,6 +81,7 @@ namespace Payroll_JWarnes
             if (this.validate())
             {
                 this.displayReport(this.generateWageReport());
+                this.btnSave.Enabled = true;
             }
         }
 
@@ -98,19 +94,39 @@ namespace Payroll_JWarnes
             //clear all the fields
             this.txtHoursWorked.Text = this.txtRate.Text = this.txtStateTax.Text =
                 this.txtFedTax.Text = this.txtFica.Text = this.txtMisc.Text = "";
+            
+            //disable save button
+            this.btnSave.Enabled = false;
 
-            //give the first focus control
+            //give focus to the first control
             this.txtHoursWorked.Focus();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
+            //close the form
             this.Close();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            this.saveFileDialog1.ShowDialog();
+            //open a save dialog if the user clicks the btnSave control
+            SaveFileDialog save = new SaveFileDialog();
+            save.Title = "Save Payroll Report";
+            save.Filter = "Text Files|*.txt";
+            save.ShowDialog();
+
+            if(save.FileName != "")
+            {
+                //convert the contents of lblReport to a byte array
+                byte[] report = new UTF8Encoding(true).GetBytes("Payroll Report\r\n----------------\r\n\r\n" + this.lblReport.Text);
+
+                //open a filestream and write the report to the file
+                FileStream saveStream = (FileStream)save.OpenFile();
+                saveStream.Write(report, 0, report.Length);
+                saveStream.Close();
+                
+            }
         }
     }
 }
