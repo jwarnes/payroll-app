@@ -1,4 +1,16 @@
-﻿using System;
+﻿/* Name: Justin Warnes
+ * Class: C#
+ * Date: 8/30/2012
+ * Assignment: Chapter 3 Payroll Application
+ * 
+ * Here is my completed payroll application. The majority of the code is in frmPayroll.cs, although I defined
+ * some validation methods in Validator.cs. This application has the features you asked for, the "Reset form" 
+ * feature for extra credit, and to challenge myself I also implemented validation and a "Save to File" feature 
+ * that saves the calculations to a text file. 
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,7 +57,7 @@ namespace Payroll_JWarnes
 
         private bool validate()
         {
-            //this method checks all the fields for valid entries, using the Validator class
+            //this method checks all the inputs for valid data, using the Validator class
             string errorMessage = "";
 
             if (!Validator.isDecimal(this.txtHoursWorked))
@@ -65,7 +77,7 @@ namespace Payroll_JWarnes
                 return true;
             else
             {
-                //if one or more of the fields fails validation, throw up a message box telling the user what to correct
+                //if one or more of the inputs fails validation, throw up a message box telling the user what to correct
                 MessageBox.Show(errorMessage, "You did something wrong!");
                 return false;
             }
@@ -73,7 +85,7 @@ namespace Payroll_JWarnes
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            //run validation method, and if all the data is valid generate the report
+            //run validation method, and if all the data is valid then generate the report
             if (this.validate())
             {
                 generateWageReport();
@@ -87,7 +99,7 @@ namespace Payroll_JWarnes
             this.lblReport.Text = "Please complete the fields.";
             this.lblReport.TextAlign = ContentAlignment.MiddleCenter;
 
-            //clear all the fields
+            //clear all the inputs
             this.txtHoursWorked.Text = this.txtRate.Text = this.txtStateTax.Text =
                 this.txtFedTax.Text = this.txtFica.Text = this.txtMisc.Text = "";
             
