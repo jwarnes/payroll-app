@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll_JWarnes", "Payroll_JWarnes\Payroll_JWarnes.csproj", "{78E49A19-B254-4DBB-AC74-2FACE0B4AFF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78E49A19-B254-4DBB-AC74-2FACE0B4AFF4}.Debug|x86.ActiveCfg = Debug|x86
+		{78E49A19-B254-4DBB-AC74-2FACE0B4AFF4}.Debug|x86.Build.0 = Debug|x86
+		{78E49A19-B254-4DBB-AC74-2FACE0B4AFF4}.Release|x86.ActiveCfg = Release|x86
+		{78E49A19-B254-4DBB-AC74-2FACE0B4AFF4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

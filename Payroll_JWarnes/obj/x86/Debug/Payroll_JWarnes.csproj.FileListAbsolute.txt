@@ -1,0 +1,9 @@
+c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\bin\Debug\Payroll_JWarnes.exe
+c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\bin\Debug\Payroll_JWarnes.pdb
+c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\obj\x86\Debug\Payroll_JWarnes.frmPayroll.resources
+c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\obj\x86\Debug\Payroll_JWarnes.Properties.Resources.resources
+c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\obj\x86\Debug\Payroll_JWarnes.exe
+c:\users\f21220\documents\visual studio 2010\Projects\Payroll_JWarnes\Payroll_JWarnes\obj\x86\Debug\Payroll_JWarnes.pdb
